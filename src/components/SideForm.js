@@ -7,6 +7,8 @@ import drink from "../images/sides/drink.png";
 import taco from "../images/sides/taco.png";
 import tortilla from "../images/sides/tortilla.png";
 
+
+
 function SideForm(props) {
   return (
     <>
@@ -28,7 +30,6 @@ function SideForm(props) {
             <label htmlFor="chips">Chips</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -48,7 +49,6 @@ function SideForm(props) {
             <label htmlFor="chips-salsa">Chips & Salsa</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -68,7 +68,6 @@ function SideForm(props) {
             <label htmlFor="chips-guac">Chips & Guac</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -88,7 +87,6 @@ function SideForm(props) {
             <label htmlFor="chips-queso">Chips & Queso</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -103,7 +101,6 @@ function SideForm(props) {
             <label htmlFor="tortila">Tortilla</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -118,7 +115,6 @@ function SideForm(props) {
             <label htmlFor="taco">Taco</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -142,3 +138,5 @@ function SideForm(props) {
     </>
   );
 }
+
+export default SideForm 
